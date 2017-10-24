@@ -15,6 +15,11 @@ Create a working folder for the cloud9 IDE files, and then run:
 curl -o- https://raw.githubusercontent.com/danucalovj/cloud9-ide-core/master/run_first.sh | bash
 ```
 
+#### Configure the Web Interface Settings ####
+```bash
+./configure_cloud9.sh
+```
+
 #### To Start the Server ####
 ```bash
 ./start_server.sh
