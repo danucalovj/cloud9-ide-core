@@ -1,3 +1,19 @@
+Cloud9 IDE Core
+===============
+Modified by danucalovj. Nothing in the core source code was modified but added a few minor functionalities to create a cloud9 IDE instance in just a few steps:
+
+#### MODS ####
+Added run_first.sh.
+This script creates the environment from scratch, installing nvm, nodejs, python2.7 and python-pip (resolving errors when enabling the plugin manager), clones the repository into the existing directory, install the NPM dependencies and then finally starts an interactive dialog to configure IP/PORT/Username/Password settings. This then generates start_server.sh.
+
+Added start_server.sh
+This script is generated/modified with the run_first.sh script above.
+
+#### To Start the Server ####
+Run: ./start_server.sh
+
+#### Original Repo README.MD Below ####
+
 Cloud9 3.0 SDK for Plugin Development
 ======================================
 
