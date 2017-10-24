@@ -10,6 +10,7 @@ Added start_server.sh
 This script is generated/modified with the run_first.sh script above.
 
 #### To Start Installation ####
+Create a working folder for the cloud9 IDE files, and then run:
 ```bash
 curl -o- https://raw.githubusercontent.com/danucalovj/cloud9-ide-core/master/run_first.sh | bash
 ```
