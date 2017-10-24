@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # apt-get update/upgrade
-sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get update
 
 # Install Node Version Manager
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
