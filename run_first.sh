@@ -20,4 +20,5 @@ git clone https://github.com/danucalovj/cloud9-ide-core.git .
 npm install --save
 
 # Done
+chmod +x configure_cloud9.sh
 echo "Done. Now run ./configure_cloud9.sh"
