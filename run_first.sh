@@ -30,5 +30,8 @@ echo "Enter the port you want the IDE web interface to bind to, followed by [ENT
 read port_num
 echo "node server.js --listen $ip_addr --port $port_num --auth $username:$password" > start_server.sh
 
+# CHMOD
+chmod +x start_server.sh
+
 # Done
 echo "Done. Run './start_server.sh to start the server. The Cloud9 IDE will run on http://$ip_addr:$port_num, modify the script if you want to change this setting."
