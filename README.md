@@ -10,10 +10,14 @@ Added start_server.sh
 This script is generated/modified with the run_first.sh script above.
 
 #### To Start Installation ####
+```bash
 curl -o- https://raw.githubusercontent.com/danucalovj/cloud9-ide-core/master/run_first.sh | bash
+```
 
 #### To Start the Server ####
-Run: ./start_server.sh
+```bash
+./start_server.sh
+```
 
 #### Original Repo README.MD Below ####
 
