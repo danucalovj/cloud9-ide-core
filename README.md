@@ -25,6 +25,17 @@ curl -o- https://raw.githubusercontent.com/danucalovj/cloud9-ide-core/master/run
 ./start_server.sh
 ```
 
+#### Using NPM Forever to Start in the Background ####
+Install Forever NPM package
+```bash
+npm install forever -g
+```
+Run using forever
+```bash
+forever start server.js --listen <IP> --port <PORT> --auth <USER>:<PASSWORD>
+```
+Note: You can modify the start_server.sh file with the command above.
+
 #### Original Repo README.MD Below ####
 
 Cloud9 3.0 SDK for Plugin Development
