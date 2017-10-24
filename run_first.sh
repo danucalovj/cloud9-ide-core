@@ -14,7 +14,7 @@ sudo apt-get install -y python2.7
 sudo apt-get install -y python-pip
 
 # Clone Cloud9 IDE into current directory
-git clone https://github.com/danucalovj/core.git .
+git clone https://github.com/danucalovj/cloud9-ide-core.git .
 
 # Install all required NPM modules
 npm install --save
