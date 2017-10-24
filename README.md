@@ -9,6 +9,9 @@ This script creates the environment from scratch, installing nvm, nodejs, python
 Added start_server.sh
 This script is generated/modified with the run_first.sh script above.
 
+#### To Start Installation ####
+curl -o- https://raw.githubusercontent.com/danucalovj/cloud9-ide-core/master/run_first.sh | bash
+
 #### To Start the Server ####
 Run: ./start_server.sh
 
