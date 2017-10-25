@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # apt-get update/upgrade
-sudo apt-get update
+apt-get update
 
 # Install Node Version Manager
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.6/install.sh | bash
@@ -10,8 +10,8 @@ export NVM_DIR="$HOME/.nvm"
 nvm install v6.11
 
 # Install Python 2.7/PIP
-sudo apt-get install -y python2.7
-sudo apt-get install -y python-pip
+apt-get install -y python2.7
+apt-get install -y python-pip
 
 # Clone Cloud9 IDE into current directory
 git clone https://github.com/danucalovj/cloud9-ide-core.git .
